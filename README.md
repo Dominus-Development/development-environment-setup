@@ -61,6 +61,19 @@ pg start
 -------------------------------------------------
 http://www.sourcetreeapp.com/
 
+- Download/Install the environment
+----------------------------------
+
+```ruby
+git clone https://github.com/Dominus-Development/site-subdomains.git
+
+cd site-subdomains/www/
+gem install bundler
+rbenv rehash
+bundle install
+bundle exec wagon pull production
+```
+
 Setting Up a Dev Environment for Ruby on Rails on Linux (Debian based)
 =============================
 
