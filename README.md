@@ -228,7 +228,7 @@ For 1.9.3, you are going to want DevKit-tdm-32
 -----------------
 
 ```bash
-gem install bundler
+>gem install bundler
 ```
 
 - Install a text Editor
@@ -244,10 +244,10 @@ http://www.sourcetreeapp.com/
 - Run the following commands in your project directory:
 
 ```ruby
-git clone https://github.com/Dominus-Development/site-subdomains.git
+>git clone https://github.com/Dominus-Development/site-subdomains.git
 
-cd site-subdomains/www/
-bundle install
-bundle exec wagon pull production
+>cd site-subdomains/www/
+>bundle install
+>bundle exec wagon pull production
 ```
 
